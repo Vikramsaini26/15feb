@@ -1,15 +1,123 @@
+.text{
+  font-size: x-large;
+}
 
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none; }
+
+.tabs {
+  
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+ }
+  .tabs [class^="tab"] label,
+  .tabs [class*=" tab"] label {
+    color: black;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+   }
+  .tabs [class^="tab"] [type="radio"],
+  .tabs [class*=" tab"] [type="radio"] {
+    cursor: pointer;
+    appearance: none;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    transition: all 0.3s ease-in-out; }
+    .tabs [class^="tab"] [type="radio"]:hover, .tabs [class^="tab"] [type="radio"]:focus,
+    .tabs [class*=" tab"] [type="radio"]:hover,
+    .tabs [class*=" tab"] [type="radio"]:focus {
+      border-bottom: 1px solid #fd264f; }
+    .tabs [class^="tab"] [type="radio"]:checked,
+    .tabs [class*=" tab"] [type="radio"]:checked {
+      border-bottom: 2px solid #fd264f; }
+    
+    .tabs [class^="tab"] [type="radio"] + div,
+    .tabs [class*=" tab"] [type="radio"] + div {
+      display: block;
+      
+       }
+  .tabs .tab-2 {
+    width: 10%; }
+    .tabs .tab-2 [type="radio"] + div {
+      width: 200%;
+      margin-left: 200%; }
+    .tabs .tab-2 [type="radio"]:checked + div {
+      margin-left: 0; }
+    .tabs .tab-2:last-child [type="radio"] + div {
+      margin-left: 100%; }
+    .tabs .tab-2:last-child [type="radio"]:checked + div {
+      margin-left: -100%; }
+
+
+      
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+.select{
+  size: 70px;
+}
 .search{
     display: flex;
     align-items: center;
     justify-content: space-between;
     
+    
 
 }
+.image{
+  border-radius: 50%;
+  border-color: #aaaaaa;
+}
+.top{
+  
+  display: flex;
+  justify-content: flex-end;
 
+  
+}
 
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(108px, 1fr));
+  width: 100%;
+  gap:10px;
+
+  
+}
+  
+
+.border{
+  width: 120px;
+  height: 200px;
+  background-color: silver;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  
+  
+}
 .select{
   width: 90%;
+  margin-top: 20px;
   padding: 16px 20px;
   border-radius: 14px;
   background-color: aliceblue;
