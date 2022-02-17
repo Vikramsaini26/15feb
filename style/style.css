@@ -55,40 +55,87 @@ select:focus {
       margin-left: -100%; }
 
 
+
+
+      
+
       
     
     
 
 
-
-
-
-
-
-
-
-
-
-  
-.select{
-  size: 70px;
+select { 
+    width: 250px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 10px;
 }
-.search{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-    
 
+#user{
+  width: 75px;
+  border: transparent; 
+  font-weight: bold;
+
+}
+
+#platform{
+  width: 120px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid#ccc;
+  text-align: center;
+  font-size: x-small;
+  font-weight: bold;
+  
+ 
+  
+}
+
+#id{
+  
+}
+
+
+.platform{
+  background-image: url(/img/search.png);
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  
+}
+
+
+
+
+
+
+
+
+#mainstyle{
+  display: flex;
+  justify-content: space-between;
+  
+    
+    
 }
 .image{
   border-radius: 50%;
-  border-color: #aaaaaa;
+  margin-right: 1px;
+  
+}
+
+#img{
+  margin-right: 10px;
+  width: 35px;
+  height: 25px;
+  
+  
+  
 }
 .top{
   
   display: flex;
   justify-content: flex-end;
+  align-items: stretch;
 
   
 }
@@ -98,32 +145,55 @@ select:focus {
   grid-template-columns: repeat(auto-fit, minmax(108px, 1fr));
   width: 100%;
   gap:10px;
+  
 
   
 }
+
+.car{
+  
+  width: 115px;
+  height: 80px
+  
+}
+.text1{
+  text-align: center;
+ 
+  
+}
+.number{
+  text-align: center;
+}
+
+
   
 
 .border{
   width: 120px;
-  height: 200px;
-  background-color: silver;
+  height: 170px;
+  background-color:transparent;
   border-radius: 10px;
-  display: flex;
+  display: grid;
   align-items: center;
-  justify-content: center;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  justify-content: space-around;
+  box-shadow: 0px 5px 5px 5px rgb(248, 247, 247);
+  
   
   
 }
 .select{
-  width: 90%;
+  width: 95%;
+  height: 23px;
   margin-top: 20px;
   padding: 16px 20px;
   border-radius: 14px;
-  background-color: aliceblue;
+  background-color: rgb(240, 242, 243);
   display: flex;
   justify-content: center;
   justify-content: space-between;
+  
+  
+  
 
     
     
@@ -131,8 +201,16 @@ select:focus {
 
 .submit{
     background-color: red;
-    border-radius: 10px;
+    border: 1px solid#ccc;
     color: aliceblue;
     size: 10px;
+    border-radius: 10px;
+    font-size: x-small;
+    height: 25px;
+    width: 70px;
+    
+
+    
+    
   
 }

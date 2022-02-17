@@ -11,10 +11,15 @@
 
 <body>
     <div class="container">
-        <div class="top"><input type="image" class="image" src="/img/download (1).png" height="23px"> <input
-                class="image" type="image" src="/img/download.png" height="20px"> <select>
-                <option>user name</option>
-            </select></div>
+        <div class="top">
+            <input class="image" id="img" type="image" src="/img/cart.jpg" height="20px" >
+            <input class="image" type="image" src="/img/joey.jpg" height="20px">
+            <select id="user">
+                <option >User Name</option>
+                <option>user1</option>
+                <option>user2</option>
+            </select>
+        </div>
         <div class="text"><b>Buying Tool</b></div><br>
 
         <div class="tabs">
@@ -34,35 +39,56 @@
 
             <select>
                 <option class="make">Make</option>
+                <option class="make">Dodge</option>
+                <option class="make">Ford</option>
+                <option class="make">Tesla</option>
+                <option class="make">Mazda</option>
             </select>
             <select>
                 <option class="model">Model</option>
+                <option class="model">Dodge Ram </option>
+                <option class="model">Ford Fusion</option>
+                <option class="model">Model 3</option>
+                <option class="model">Mazda2</option>
             </select>
             <select>
                 <option class="year">Year</option>
+                <option class="year">2000</option>
+                <option class="year">2001</option>
+                <option class="year">2002</option>
+                <option class="year">2003</option>
+
             </select>
-            <input type="submit" class="submit" value="view results">
+            <input type="submit" class="submit" value="View Results">
 
 
         </div><br>
-        <div class="search">
-            <input type="search" value="search platforms">
+        <div id="mainstyle">
+            <input type="search" class="platform" id="platform" placeholder="Platform Search">
 
 
-            <select>
-                <option class="search">Platform Names</option>
+            <select id="platform">
+                <option>Platform Names</option>
             </select>
 
         </div><br>
 
         <div class="grid">
-            <div class="border">vehicles 79,582</div>
-            <div class="border">vehicles 79,582</div>
-            <div class="border">vehicles 79,582</div>
-            <div class="border">vehicles 79,582</div>
-            <div class="border">vehicles 79,582</div>
-            <div class="border">vehicles 79,582</div>
-            <div class="border">vehicles 79,582</div>
+            <div class="border"><img src="/img/mustang.jfif" class="car"  /><a class="text1">vehicles
+                    <br><b>79,582</a></b></div>
+            <div class="border"><img src="/img/tesla.jpg" class="car"  /><a class="text1">vehicles
+                    <br><b>79,582</a></b></div>
+            <div class="border"><img src="/img/may.jfif" class="car" /><a class="text1">vehicles
+                    <br><b>79,582</a></b></div>
+            <div class="border"><img src="/img/fusion.jfif"class="car"/><a class="text1">vehicles
+                    <br><b>79,582</a></b></div>
+            <div class="border"><img src="/img/model.png" class="car"/><a class="text1">vehicles
+                    <br><b>79,582</a></b></div>
+            <div class="border"><img src="/img/ram.png" class="car" /><a class="text1">vehicles
+                    <br><b>79,582</a></b></div>
+            <div class="border"><img src="/img/mazda.png" class="car"/><a class="text1">vehicles
+                    <br><b>79,582</a></b></div>
+
         </div>
     </div>
 
